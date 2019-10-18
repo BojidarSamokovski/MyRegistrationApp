@@ -10,6 +10,14 @@ namespace RegistrationConsole.App
 	{
 		static void Main(string[] args)
 		{
+			List<string> listNames	= new List<string>()
+			{
+				"Boiko Borisov",
+				"Amazon Prime",
+				"Sinyoto Momche"
+			};
+
+			Console.WriteLine( String.Join(" ", listNames ) );
 		}
 	}
 }
